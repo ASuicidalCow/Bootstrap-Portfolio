@@ -1,0 +1,34 @@
+body{
+    background-position: center;
+    background-image: url(./assets/images/me.jpg);
+}
+.navbar-right{
+    letter-spacing: 1px;
+    font-size: larger;
+    border-bottom: 3px solid #2ea86f ;
+    padding-top:10px ;
+     
+}
+.col-md-3{
+    font-size: x-large;
+    color: #dfdede; 
+    background-color: #2ea86f;
+    border-radius: 3%;
+    border-bottom: 3px solid #2ea86f;  
+}
+.col-md-5{
+    border-bottom: 3px solid #2ea86f;
+}
+.jumbotron{
+    margin-top: 5%;
+    margin-bottom: 10px;
+  
+    
+    
+}
+.image{
+    width: 165px;
+    height: 200px;
+    float: left;
+    padding-right: 5px;
+}
