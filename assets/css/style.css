@@ -1,46 +1,53 @@
 body{
-    background-position: center;
-    background-image: url(/assets/images/mirrored_squares.png)
+    background-attachment: fixed;
+    background-image: url(/assets/images/mirrored_squares.png)    
+}
+.container{
+    position: relative;
+    min-height: 100vh;
 }
 .col-md-4{
     letter-spacing: 1px;
     font-size: larger;
     border-bottom: 3px solid #2ea86f;
-    padding-top:10px ;     
+    padding-top:10px ;
+    background-color: white;     
 }
 #index{
-    color: #f5ecec;
-    
+    color: grey;
     font-family: monospace;
     font-size: 18px;
     
 }
 #portfolio{
     padding-left: 10px;
-    color: #f5ecec;
-    
+    color: grey;
     font-family: monospace;
     font-size: 18px;
     
 }
 #contact{
-    color: #f5ecec;
+    color: grey;
     padding-left: 10px;
-    
     font-family: monospace;
     font-size: 18px;
 }
+.card-img-top{
+height: 300px;
 
+}
 .col-md-3{
     font-size: x-large;
     color: #dfdede; 
     background-color: #2ea86f;
     border-radius: 3%;
     border-bottom: 3px solid #2ea86f;
+    padding-left: ;
       
 }
 .col-md-5{
     border-bottom: 3px solid #2ea86f;
+    background-color: white;
 }
 .jumbotron{
     margin-top: 5%;
@@ -54,17 +61,9 @@ body{
     float: left;
     padding-right: 5px;
 }
-.col-md-8{
-    text-align: center;
-    position: absolute;
-    right: 16%;
-    bottom: 20px;
-    color: azure;
-    
-   
-}
+
 .col-md-12{
-    border: 5px solid black;
+    
     position: absolute;
     bottom:3px ;
 }
@@ -72,5 +71,12 @@ body{
     height: 150px;
     width: 150px;
     vertical-align: auto;
-    
 }
+#footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height:2.5rem;
+
+}
+
