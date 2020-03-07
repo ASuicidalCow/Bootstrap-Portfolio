@@ -1,6 +1,6 @@
 body{
-    background-attachment: fixed;
-    background-image: url(/assets//images/mirrored_squares.png)    
+  
+    background-image: url(../images/mirrored_squares.png)    
 }
 .container{
     position: relative;
